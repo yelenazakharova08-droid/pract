@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<metacharset="utf-8">
+	<title>Практическая 7</title>
+	<link rel="stylesheet" href="1css.css">
+</head>
+    <body>
+    	<form action="" method="GET">
+    		<p> <input type="text" placeholder="Плейсхолдер"></p> 
+    		<p> <input type="text" value="Value"> </p>
+    		<p> <input class="mile" type="text" disabled placeholder="disabled"> </p>
+    		<p> <input type="password" value="12345"> </p>
+    		<p> <textarea placeholder="Введите текст"></textarea></p> 
+			<p> <input class="mile" type="submit" value="Кнопка через тег input"></p>
+			<p> <button class="mile">Кнопка через тег button</button> </p>
+			<hr>
+			<p> <input type="text" id="place" placeholder="Плейсхолдер"><label for='place'>Это метка для инпута - нажмите на меня - и инпут получит фокус!</label></p>
+	<p><input type="submit" class="mile" value="Отправить на сервер"></p>
+	<hr>
+	<p><input type="checkbox" id="tutu"> <label for="tutu">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label></p>
+	<p><input type="checkbox" checked> Я отмечен по умолчанию! </p>
+	<p><input type="checkbox" checked disabled> Я disabled! </p>
+	<p> Это группа радиокнопок - только одна из них может быть отмечена! </p>
+	<p> <input type="radio" id="bb" name="mile"><label for="bb">Это метка для радио</label> </p>
+	<p> <input type="radio" id="dd" name="mile"><label for="dd">Это метка для радио</label> </p>
+	<p><input type="submit" class="mile" value="Отправить на сервер"></p>
+		<hr>
+		<select>
+		<option selected>Нью-Йорк</option>
+		<option>Киев</option>
+		<option>Варшава</option>
+		<option>Москва</option>
+		<option>Минск</option>
+	</select>
+	<select multiple name="city[]" size="3">
+		<option>Нью-Йорк</option>
+		<option>Киев</option>
+		<option>Варшава</option>
+		<option>Москва</option>
+		<option>Минск</option>
+	</select>
+	<select multiple name="city[]" size="5">
+		<option>Нью-Йорк</option>
+		<option>Киев</option>
+		<option>Варшава</option>
+		<option>Москва</option>
+		<option>Минск</option>
+	</select>
+	<p><input type="submit" class="mile" value="Отправить на сервер"></p>
+	<hr>
+	<input type="file">
+	<input type="submit" class="mile" value="Отправить на сервер">
+	<hr>
+	<fieldset>
+	<legend>Выберите кнопочку</legend>
+	<input type="radio" name="a"> <input type="radio" name="a"> <input type="radio" name="a">
+	<input type="text" placeholder="Ваше имя...">
+</fieldset>
+<br>
+<fieldset>
+	<legend>Выберите еще кнопочку</legend>
+	<input type="radio" name="b"> <input type="radio" name="b"><input type="radio" name="b"> <input type="radio" name="b"><input type="radio" name="b">
+</fieldset>
+<br>
+<input type="submit" class="mile" value="Отправить на сервер">
+<hr>
+<p> <textarea class="odin" placeholder="Ограничена ширина и высота"></textarea></p>
+<p> <textarea class="dva" placeholder="Не изменяется"></textarea></p>
+<p> <textarea class="tri" placeholder="По горизонтали"></textarea></p>
+<p> <textarea class="for" placeholder="по вертикали"></textarea></p>
+    	</form>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+.mile {
+	background: #fff0cf;
+}
+.odin {
+   max-width: 200px;
+   max-height: 50px;
+}
+.dva {
+	resize: none;
+}
+.tri {
+    resize: horizontal;
+}
+.for {
+	resize: vertical;
+}
